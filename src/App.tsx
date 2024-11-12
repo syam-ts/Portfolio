@@ -1,9 +1,12 @@
+import Home from "./components/Home"
+import Navbar from "./components/Navbar"
 
-function App() { 
+const App: React.FC = () => { 
 
   return (
     <>
-     <h1>Portfolio</h1>
+     <Home />
+     <Navbar />
     </>
   )
 }
