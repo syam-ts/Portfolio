@@ -4,8 +4,7 @@ import Navbar from "./components/Navbar"
 const App: React.FC = () => { 
 
   return (
-    <>
-     <Home />
+    <> 
      <Navbar />
     </>
   )

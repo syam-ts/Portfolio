@@ -3,7 +3,13 @@ import React from 'react'
 
 const Navbar: React.FC = () => {
   return (
-    <div>Navbar</div>
+    <div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>contact</li>
+      </ul>
+    </div>
   )
 }
 
