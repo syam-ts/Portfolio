@@ -1,11 +1,11 @@
-
-
+import Navbar from './Navbar.tsx'
 
 const Home: React.FC = () => {
 
     return (
         <div>
-               Syam
+            <Navbar />
+               Home
         </div>
     )
 };
