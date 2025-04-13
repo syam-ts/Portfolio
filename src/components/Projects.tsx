@@ -16,7 +16,7 @@ const Projects = () => {
             {projects.map((pro: Projects) => (
                 <div className="bg-gray-900 p-6 rounded-xl gradient-border w-[18rem] h-[18rem] shadow-lg border border-gray-800 transform transition-all">
                     <div className="flex justify-between items-start mb-4 ">
-                        <h3 className="text-2xl font-bold text-gray-200">
+                        <h3 className="text-2xl font-bold text-gray-200 nunito-regular">
                             {pro.projectName}
                         </h3>
                         <a
@@ -27,7 +27,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className="py-3">
-                        <p className="text-gray-400 mb-4 line-clamp-2">{pro.description}</p>
+                        <p className="text-gray-400 mb-4 line-clamp-2 nunito-regular">{pro.description}</p>
                     </div>
                     <div className="flex flex-wrap gap-2 line-clamp-1">
                         {pro.skills.map((skill: string, index: number) => (

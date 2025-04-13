@@ -20,13 +20,13 @@ const App: React.FC = () => {
               className="w-32 h-32 rounded-2xl border border-[#7f8077] relative z-10"
             />
           </div>
-          <h1 className="text-3xl font-bold bg-white bg-clip-text text-transparent">Syam T S</h1>
-          <p className="text-lg text-gray-400 mt-2">Fullstack Developer</p>
+          <h1 className="text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular">Syam T S</h1>
+          <p className="text-lg text-gray-400 mt-2 nunito-regular">Fullstack Developer</p>
         </header>
 
         {/* Bio Section */}
         <section className="w-full mb-20 px-6 py-8 bg-gray-900 rounded-xl hover:bg-gray-800">
-          <p className="text-lg leading-relaxed text-gray-300 line-clamp-5">
+          <p className="text-md leading-relaxed text-gray-300 line-clamp-5 montserrat-regular">
             {description}
           </p>
         </section>
@@ -35,7 +35,7 @@ const App: React.FC = () => {
         <section className="w-full mb-20">
           <div className="flex items-center mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
-            <p className="text-3xl font-semibold px-4">Skills</p>
+            <p className="text-3xl font-semibold px-4 nunito-regular">Skills</p>
             <div className="h-px bg-gray-700 flex-grow"></div>
           </div>
 
@@ -46,7 +46,7 @@ const App: React.FC = () => {
         <section className="w-full mb-20">
           <div className="flex items-center mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
-            <h2 className="text-3xl font-semibold px-4">Projects</h2>
+            <h2 className="text-3xl font-semibold px-4 nunito-regular">Projects</h2>
             <div className="h-px bg-gray-700 flex-grow"></div>
           </div>
 
@@ -60,7 +60,7 @@ const App: React.FC = () => {
         <section className="w-full mb-16">
           <div className="flex items-center mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
-            <h2 className="text-3xl font-semibold px-4">Connect</h2>
+            <h2 className="text-3xl font-semibold px-4 nunito-regular">Connect</h2>
             <div className="h-px bg-gray-700 flex-grow"></div>
           </div>
 

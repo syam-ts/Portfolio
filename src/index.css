@@ -13,6 +13,8 @@
     font-style: normal;
   }
 
+
+  /* Hover gradient for Projects */
   .gradient-border:hover {
     border: 1px solid transparent;
     border-radius: 1rem;
