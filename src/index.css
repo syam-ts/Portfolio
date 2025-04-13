@@ -1,0 +1,23 @@
+.nunito-regular {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .gradient-border:hover {
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    background: 
+      linear-gradient(#0e0e0f, #000000) padding-box, 
+      linear-gradient(to right, #3b82f6, #a855f7) border-box;
+  }
+  
