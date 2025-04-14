@@ -9,7 +9,7 @@ const App: React.FC = () => {
 
   return (
     <div className="bg-black text-white min-h-screen flex justify-center nunito-regular px-4">
-      <div className="w-full max-w-[700px] flex flex-col items-center py-12">
+      <div className="w-full max-w-[600px] flex flex-col items-center py-12">
         {/* Header Section */}
         <header className="flex flex-col items-center text-center w-full mb-12 sm:mb-16">
           <div className="relative mb-6">
@@ -17,7 +17,7 @@ const App: React.FC = () => {
             <img
               src="profile-pic.jpg"
               alt="Syam T S"
-              className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl border border-[#7f8077] relative z-10"
+              className="w-28 h-28 sm:w-[100px] sm:h-[100px] rounded-2xl border border-[#7f8077] relative z-10"
             />
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular">
