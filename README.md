@@ -12,4 +12,4 @@ The website is built in popular Tech Stack and deployed on Vercel
  
 
  <h4>About</h4>
- <p>Live: 'syamportfilo.site'</p>
+ <p>Live: 'https://syamportfilo.site'</p>
