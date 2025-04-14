@@ -12,4 +12,4 @@ The website is built in popular Tech Stack and deployed on Vercel
  
 
  <h4>About</h4>
- <p>Live: 'https://portifolio-tawny-beta.vercel.app'</p>
+ <p>Live: 'syamportfilo.site'</p>
