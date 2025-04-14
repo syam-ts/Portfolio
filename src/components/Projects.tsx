@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <div className="flex flex-wrap gap-4 justify-center">
             {projects.map((pro: Projects) => (
-                <div className="bg-gray-900 p-6 rounded-xl gradient-border w-[18rem] h-[18rem] shadow-lg border border-gray-800 transform transition-all">
+                <div className="bg-gray-900 p-5 rounded-xl gradient-border w-[17rem] h-[17rem] shadow-lg border border-gray-800 transform transition-all">
                     <div className="flex justify-between items-start mb-4 ">
                         <h3 className="text-2xl font-bold text-gray-200 nunito-regular">
                             {pro.projectName}
