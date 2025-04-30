@@ -15,9 +15,9 @@ const App: React.FC = () => {
           <div className="relative mb-6">
             <div className="absolute inset-0"></div>
             <img
-              src="profile-pic.jpg"
+              src="profile-pic2.jpg"
               alt="Syam T S"
-              className="w-28 h-28 sm:w-[100px] sm:h-[100px] rounded-2xl border border-[#7f8077] relative z-10"
+              className="w-28 h-28 sm:w-[180px] sm:h-[205px] rounded-2xl border object-fill border-[#7f8077] relative z-10"
             />
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular">
