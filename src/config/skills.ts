@@ -1,14 +1,16 @@
 type skills = string;
 
 const skills: skills[] = [
-    "React",
-    "Typescript",
+    "React.js",
     "Tailwind CSS",
+    "Typescript",
+    "Javascript",
     "Node.js",
-    "MongoDB",
-    "Git",
     "Express.js",
-    "Docker"
+    "MongoDB",
+    "Docker",
+    "Redux",
+    "Git"
 ];
 
 export default skills;
