@@ -21,6 +21,7 @@ const Projects = () => {
                         </h3>
                         <a
                             href={pro.websiteUrl}
+                            target="blank"
                             className="p-2 rounded-full bg-gray-800 text-gray-300 hover:bg-blue-500 hover:text-white transition-colors"
                         >
                             <ExternalLink size={16} />
