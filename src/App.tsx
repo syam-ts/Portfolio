@@ -83,8 +83,9 @@ const App: React.FC = () => {
               <Linkedin size={24} className="text-gray-400 group-hover:text-white" />
             </a>
             <a
-              href="mailto:syamnandhu3@gmail.com"
-              className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=syamnandhu3@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"  className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
             >
               <Mail size={24} className="text-gray-400 group-hover:text-white" />
             </a>
