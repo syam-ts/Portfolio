@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import description from './config/description';
@@ -24,7 +24,7 @@ const App: React.FC = () => {
             Syam T S
           </h1>
           <p className="text-md sm:text-lg text-gray-400 mt-2 nunito-regular">
-            Fullstack Developer | MERN Stack 
+            Fullstack Developer | MERN Stack
           </p>
         </header>
 
@@ -83,11 +83,18 @@ const App: React.FC = () => {
               <Linkedin size={24} className="text-gray-400 group-hover:text-white" />
             </a>
             <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=syamnandhu3@gmail.com"
-  target="_blank"
-  rel="noopener noreferrer"  className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=syamnandhu3@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer" className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
             >
               <Mail size={24} className="text-gray-400 group-hover:text-white" />
+            </a>
+            <a
+              href="https://www.instagram.com/xtreamer3/"
+              target="_blank"
+              className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
+            >
+              <Instagram size={24} className="text-gray-400 group-hover:text-white" />
             </a>
           </div>
         </section>
