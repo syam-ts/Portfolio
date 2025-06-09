@@ -24,7 +24,7 @@ const App: React.FC = () => {
             Syam T S
           </h1>
           <p className="text-md sm:text-lg text-gray-400 mt-2 nunito-regular">
-            Fullstack Developer
+            Fullstack Developer | MERN Stack 
           </p>
         </header>
 
