@@ -63,6 +63,20 @@ const projects: Projects[] = [
             'Firebase',
         ],
     },
+      {
+        projectName: 'Readora',
+        websiteUrl: 'https://readora-puce.vercel.app/login',
+        description:
+            'An Article feed application built using React.js, Node.js with Express.js , Typescript and Tailwind css',
+        skills: [
+            'React.js', 
+            'Node.js',
+            'Express.js',
+            'TypeScript',
+            'Tailwind CSS',
+            'Redux'
+        ],
+    },
     {
         projectName: 'JokeClub2.0',
         websiteUrl: 'https://jokeClub.vercel.com',
@@ -88,21 +102,7 @@ const projects: Projects[] = [
             'TMDB',
             'Tailwind CSS',
         ],
-    },
-    {
-        projectName: 'Readora',
-        websiteUrl: 'https://readora-puce.vercel.app/login',
-        description:
-            'An Article feed application built using React.js, Node.js with Express.js , Typescript and Tailwind css',
-        skills: [
-            'React.js', 
-            'Node.js',
-            'Express.js',
-            'TypeScript',
-            'Tailwind CSS',
-            'Redux'
-        ],
-    },
+    }
 ];
 
 
