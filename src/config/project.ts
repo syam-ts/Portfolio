@@ -36,7 +36,7 @@ const projects: Projects[] = [
     },
     {
         projectName: 'OneCart',
-        websiteUrl: 'https://onecart.services',
+        websiteUrl: 'https://onecart.onrender.com/login',
         description:
             'Node.js Ecommerce Web application for luxuary products like Cloths, Watcher, Footwares, Accessories, and many more',
         skills: [
