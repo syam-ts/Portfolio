@@ -1,12 +1,11 @@
-import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import description from './config/description';
-import Footer from './components/Footer';
-
+import { Github, Linkedin, Mail, Instagram } from "lucide-react";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import description from "./config/description";
+import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 const App: React.FC = () => {
-
   return (
     <div className="bg-black text-white min-h-screen flex justify-center nunito-regular px-4">
       <div className="w-full max-w-[600px] flex flex-col items-center py-12">
@@ -39,7 +38,9 @@ const App: React.FC = () => {
         <section className="w-full mb-12 sm:mb-20">
           <div className="flex items-center mb-6 sm:mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
-            <p className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">Skills</p>
+            <p className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">
+              Skills
+            </p>
             <div className="h-px bg-gray-700 flex-grow"></div>
           </div>
           <Skills />
@@ -49,7 +50,9 @@ const App: React.FC = () => {
         <section className="w-full mb-12 sm:mb-20">
           <div className="flex items-center mb-6 sm:mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
-            <h2 className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">Projects</h2>
+            <h2 className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">
+              Projects
+            </h2>
             <div className="h-px bg-gray-700 flex-grow"></div>
           </div>
           <div className="space-y-6 sm:space-y-8 w-full">
@@ -57,11 +60,26 @@ const App: React.FC = () => {
           </div>
         </section>
 
+        <section className="w-full mb-12 sm:mb-20">
+          <div>
+            <div className="flex items-center mb-6 sm:mb-8">
+              <div className="h-px bg-gray-700 flex-grow"></div>
+              <h2 className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">
+                Resume
+              </h2>
+              <div className="h-px bg-gray-700 flex-grow"></div>
+            </div>
+            <Resume />
+          </div>
+        </section>
+
         {/* Social Media Section */}
         <section className="w-full mb-12 sm:mb-16">
           <div className="flex items-center mb-6 sm:mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
-            <h2 className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">Connect</h2>
+            <h2 className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">
+              Connect
+            </h2>
             <div className="h-px bg-gray-700 flex-grow"></div>
           </div>
 
@@ -72,7 +90,10 @@ const App: React.FC = () => {
               rel="noopener noreferrer"
               className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
             >
-              <Github size={24} className="text-gray-400 group-hover:text-white" />
+              <Github
+                size={24}
+                className="text-gray-400 group-hover:text-white"
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/syamts"
@@ -80,21 +101,31 @@ const App: React.FC = () => {
               rel="noopener noreferrer"
               className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
             >
-              <Linkedin size={24} className="text-gray-400 group-hover:text-white" />
+              <Linkedin
+                size={24}
+                className="text-gray-400 group-hover:text-white"
+              />
             </a>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=syamnandhu3@gmail.com"
               target="_blank"
-              rel="noopener noreferrer" className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
+              rel="noopener noreferrer"
+              className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
             >
-              <Mail size={24} className="text-gray-400 group-hover:text-white" />
+              <Mail
+                size={24}
+                className="text-gray-400 group-hover:text-white"
+              />
             </a>
             <a
               href="https://www.instagram.com/xtreamer3/"
               target="_blank"
               className="p-3 sm:p-4 bg-gray-900 rounded-full hover:bg-gray-800 transition-colors group"
             >
-              <Instagram size={24} className="text-gray-400 group-hover:text-white" />
+              <Instagram
+                size={24}
+                className="text-gray-400 group-hover:text-white"
+              />
             </a>
           </div>
         </section>
@@ -103,9 +134,7 @@ const App: React.FC = () => {
         <Footer />
       </div>
     </div>
-
   );
 };
-
 
 export default App;
