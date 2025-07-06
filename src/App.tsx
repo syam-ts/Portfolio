@@ -20,6 +20,9 @@ const App: React.FC = () => {
               onMouseEnter={() => {
                 setImage("img1.png");
               }}
+              onMouseLeave={() => {
+                setImage("profile-pic2.jpg");
+              }}
             >
               <img
                 src={image}
