@@ -1,11 +1,14 @@
-import { Github, Linkedin, Mail, Instagram } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram, RepeatIcon } from "lucide-react";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import description from "./config/description";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
+import { useState } from "react";
 
 const App: React.FC = () => {
+  const [image, setImage] = useState("profile-pic2.jpg");
+
   return (
     <div className="bg-black text-white min-h-screen flex justify-center nunito-regular px-4">
       <div className="w-full max-w-[600px] flex flex-col items-center py-12">
@@ -13,11 +16,17 @@ const App: React.FC = () => {
         <header className="flex flex-col items-center text-center w-full mb-12 sm:mb-16">
           <div className="relative mb-6">
             <div className="absolute inset-0"></div>
-            <img
-              src="profile-pic2.jpg"
-              alt="Syam T S"
-              className="w-28 h-28 sm:w-[180px] sm:h-[215px] rounded-2xl border object-fill border-[#7f8077] relative z-10"
-            />
+            <div
+              onMouseEnter={() => {
+                setImage("img1.png");
+              }}
+            >
+              <img
+                src={image}
+                alt="Syam T S"
+                className="w-28 h-28 sm:w-[180px] sm:h-[215px] rounded-2xl border object-cover border-[#7f8077] relative z-10"
+              />
+            </div>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular">
             Syam T S
@@ -30,7 +39,7 @@ const App: React.FC = () => {
               <Github className="h-5 w-5" />
             </div>
             <a href="https://github.com/syam-ts" target="_blank">
-              <span className="text-md hover:border-b">github</span> 
+              <span className="text-md hover:border-b">github</span>
             </a>
           </p>
         </header>
