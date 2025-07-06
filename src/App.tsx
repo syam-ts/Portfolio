@@ -25,6 +25,14 @@ const App: React.FC = () => {
           <p className="text-md sm:text-lg text-gray-400 mt-2 nunito-regular">
             Fullstack Developer | MERN Stack
           </p>
+          <p className="flex gap-2 text-gray-400 mt-2 nunito-regular">
+            <div>
+              <Github className="h-5 w-5" />
+            </div>
+            <a href="https://github.com/syam-ts" target="_blank">
+              <span className="text-md hover:border-b">github</span> 
+            </a>
+          </p>
         </header>
 
         {/* Bio Section */}
