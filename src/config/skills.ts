@@ -8,9 +8,13 @@ const skills: skills[] = [
     "Node.js",
     "Express.js",
     "MongoDB",
+    "HTML",
+    "CSS",
     "Docker",
     "Redux",
-    "Git"
+    "Git",
+    "AWS",
+    "Postman"
 ];
 
 export default skills;
