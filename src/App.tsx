@@ -5,6 +5,7 @@ import description from "./config/description";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import { useState } from "react";
+import ShinyText from "./components/React-Bits/ShinyText";
 
 const App: React.FC = () => {
   const [image, setImage] = useState("profile-pic2.jpg");
@@ -31,29 +32,47 @@ const App: React.FC = () => {
                 className="w-28 h-28 sm:w-[180px] hover:rotate-0 duration-500 hover:-translate-y-6 hover:scale-105 sm:h-[215px] rounded-2xl border object-cover border-[#7f8077] relative z-10"
               />
             </div>
-            <div
-              className={`transition-all duration-700 ease-out transform ${image === "img1.png"
-                  ? "opacity-100 translate-x-0"
-                  : "hidden"
-                }`}
-            >
-              <a href="https://github.com/syam-ts" className="block">
-                https://github.com/syam-ts
-              </a>
-            </div>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular">
-            Syam T S
-          </h1>
-          <p className="text-md sm:text-lg text-gray-400 mt-2 nunito-regular">
-            Fullstack Developer | MERN Stack
-          </p>
-          <p className="flex gap-2 text-gray-400 mt-2 nunito-regular">
+
+          <ShinyText
+            text="Syam T S"
+            disabled={false}
+            speed={3}
+            className="custom-class text-2xl sm:text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular"
+          />
+
+          <ShinyText
+            text="Fullstack Developer | MERN Stack"
+            disabled={false}
+            speed={3}
+            className="text-md sm:text-lg text-gray-400 nunito-regular"
+          />
+
+          <p className="flex gap-2 text-gray-400 nunito-regular">
             <div>
-              <Github className={image === 'img1.png' ? 'h-5 w-5 shadow-xl shadow-white': 'h-5 w-5'} />
+              <Github
+                className={
+                  image === "img1.png"
+                    ? "h-5 w-5 shadow-xl shadow-white"
+                    : "h-5 w-5"
+                }
+              />
             </div>
             <a href="https://github.com/syam-ts" target="_blank">
-              <span className={image === 'img1.png' ? 'text-md border-b' : 'text-md hover:border-b'}>github</span>
+              <span
+                className={
+                  image === "img1.png"
+                    ? "text-md border-b"
+                    : "text-md hover:border-b"
+                }
+              >
+                <ShinyText
+                  text="github"
+                  disabled={false}
+                  speed={3}
+                  className="text-sm sm:text-sm text-gray-400 nunito-regular"
+                />
+              </span>
             </a>
           </p>
         </header>
