@@ -16,6 +16,7 @@ const App: React.FC = () => {
         <header className="flex flex-col items-center text-center w-full mb-12 sm:mb-16">
           <div className="relative mb-6">
             <div className="absolute inset-0"></div>
+
             <div
               onMouseEnter={() => {
                 setImage("img1.png");
@@ -27,8 +28,18 @@ const App: React.FC = () => {
               <img
                 src={image}
                 alt="Syam T S"
-                className="w-28 h-28 sm:w-[180px] sm:h-[215px] rounded-2xl border object-cover border-[#7f8077] relative z-10"
+                className="w-28 h-28 sm:w-[180px] hover:rotate-0 duration-500 hover:-translate-y-6 hover:scale-105 sm:h-[215px] rounded-2xl border object-cover border-[#7f8077] relative z-10"
               />
+            </div>
+            <div
+              className={`transition-all duration-700 ease-out transform ${image === "img1.png"
+                  ? "opacity-100 translate-x-0"
+                  : "hidden"
+                }`}
+            >
+              <a href="https://github.com/syam-ts" className="block">
+                https://github.com/syam-ts
+              </a>
             </div>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold bg-white bg-clip-text text-transparent nunito-regular">
@@ -39,10 +50,10 @@ const App: React.FC = () => {
           </p>
           <p className="flex gap-2 text-gray-400 mt-2 nunito-regular">
             <div>
-              <Github className="h-5 w-5" />
+              <Github className={image === 'img1.png' ? 'h-5 w-5 shadow-xl shadow-white': 'h-5 w-5'} />
             </div>
             <a href="https://github.com/syam-ts" target="_blank">
-              <span className="text-md hover:border-b">github</span>
+              <span className={image === 'img1.png' ? 'text-md border-b' : 'text-md hover:border-b'}>github</span>
             </a>
           </p>
         </header>
