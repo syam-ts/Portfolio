@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import { useState } from "react";
 import ShinyText from "./components/React-Bits/ShinyText";
+import BlurText from "./components/React-Bits/BlurText";
 
 const App: React.FC = () => {
   const [image, setImage] = useState("profile-pic2.jpg");
@@ -80,7 +81,13 @@ const App: React.FC = () => {
         {/* Bio Section */}
         <section className="w-full mb-12 sm:mb-20 px-4 py-6 sm:px-6 sm:py-8 bg-gray-900 rounded-xl hover:bg-gray-800 transition-colors">
           <p className="text-sm sm:text-md leading-relaxed text-gray-300 line-clamp-5 montserrat-regular">
-            {description}
+            <BlurText
+              text={description}
+              delay={150}
+              animateBy="words"
+              direction="top"
+              className="text-md"
+            />
           </p>
         </section>
 
