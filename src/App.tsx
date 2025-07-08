@@ -7,7 +7,6 @@ import Resume from "./components/Resume";
 import { useState } from "react";
 import ShinyText from "./components/React-Bits/ShinyText";
 import BlurText from "./components/React-Bits/BlurText";
-import SpotlightCard from "./components/React-Bits/SpotLight";
 
 const App: React.FC = () => {
   const [image, setImage] = useState("profile-pic2.jpg");
