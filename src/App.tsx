@@ -7,6 +7,7 @@ import Resume from "./components/Resume";
 import { useState } from "react";
 import ShinyText from "./components/React-Bits/ShinyText";
 import BlurText from "./components/React-Bits/BlurText";
+import SpotlightCard from "./components/React-Bits/SpotLight";
 
 const App: React.FC = () => {
   const [image, setImage] = useState("profile-pic2.jpg");
@@ -92,6 +93,9 @@ const App: React.FC = () => {
         </section>
 
         {/* Skills Section */}
+
+
+        
         <section className="w-full mb-12 sm:mb-20">
           <div className="flex items-center mb-6 sm:mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
@@ -116,6 +120,8 @@ const App: React.FC = () => {
             <Projects />
           </div>
         </section>
+
+
 
         <section className="w-full mb-12 sm:mb-20">
           <div>
