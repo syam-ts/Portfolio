@@ -42,8 +42,8 @@ const projects: Projects[] = [
         skills: [
             'Node.js',
             'JavaScript',
-            'Express.js',
             'AWS',
+            'Express.js',
             'EJS',
             'Razorpay',
             'MongoDB',
@@ -98,8 +98,8 @@ const projects: Projects[] = [
         skills: [
             'React.js',
             'Firebase',
-            'TypeScript',
             'TMDB',
+            'TypeScript',
             'Tailwind CSS',
         ],
     }
