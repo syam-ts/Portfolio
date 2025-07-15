@@ -92,8 +92,7 @@ const App: React.FC = () => {
         </section>
 
         {/* Skills Section */}
-
-
+ 
         
         <section className="w-full mb-12 sm:mb-20">
           <div className="flex items-center mb-6 sm:mb-8">
