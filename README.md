@@ -1,6 +1,6 @@
 
 <h1>Tech Stack Used in Portfolio</h1>
-The website is built in popular Tech Stack and deployed on Vercel
+The website is built in popular Tech Stack and deployed on Vercel with hidden animations.
 
 <ul>
  <li>React.js for building UI and Components</li>
@@ -12,7 +12,7 @@ The website is built in popular Tech Stack and deployed on Vercel
 </ul>
  
 
- <h4>About</h4>
+ <h2>About</h2>
  <p>Live: 'https://syamportfilo.site'</p>
 <br />
 
