@@ -13,7 +13,7 @@ The website is built in popular Tech Stack and deployed on Vercel with hidden an
  
 
  <h2>About</h2>
- <p>Live: 'https://syamportfilo.site'</p>
+ <p><strong>Live</strong>: 'https://syamportfilo.site'</p>
 <br />
 
 > ⚠️ **Access Notice**  
