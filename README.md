@@ -13,3 +13,10 @@ The website is built in popular Tech Stack and deployed on Vercel
 
  <h4>About</h4>
  <p>Live: 'https://syamportfilo.site'</p>
+
+
+> ⚠️ **Access Notice**  
+> This repository is private and cloning strictly not allowed.  
+> Cloning, copying, or redistributing any part of this project without prior written permission is strictly prohibited.  
+>  
+ 
