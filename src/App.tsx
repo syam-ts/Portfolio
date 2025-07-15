@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
             <div
               onMouseEnter={() => {
-                setImage("img1.png");
+                setImage("img1.png")
               }}
               onMouseLeave={() => {
                 setImage("profile-pic2.jpg");

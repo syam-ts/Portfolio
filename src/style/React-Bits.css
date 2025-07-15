@@ -57,3 +57,19 @@
 .card-spotlight:focus-within::before {
   opacity: 0.6;
 }
+
+
+
+/* scrampled-text */
+.text-block {
+  /* margin: 7vw;
+  max-width: 800px; */
+  font-family: monospace;
+  font-size: clamp(1px, 4vw, 1.1rem);
+  color: #fff;
+}
+
+.char {
+  will-change: transform;
+  display: inline-block;
+}
