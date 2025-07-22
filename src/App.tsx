@@ -9,7 +9,7 @@ import ShinyText from "./components/React-Bits/ShinyText";
 import BlurText from "./components/React-Bits/BlurText";
 
 const App: React.FC = () => {
-  const [image, setImage] = useState("profile-pic2.jpg");
+  const [image, setImage] = useState<string>("profile-pic2.jpg");
 
   return (
     <div className="bg-black text-white min-h-screen flex justify-center nunito-regular px-4">

@@ -9,12 +9,18 @@ const skills: skills[] = [
     "Express.js",
     "MongoDB",
     "HTML",
-    "CSS",
     "Docker",
+    "CSS",
     "Redux",
+    "Formik",
+    "JSON Web Token",
     "Git",
+    "Yup",
+    "EJS",
     "AWS",
-    "Postman"
+    "Postman",
+    "Bootstrap",
+    "Winston",
 ];
 
 export default skills;

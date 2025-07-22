@@ -14,14 +14,14 @@ const Resume = () => {
                     {/* <span className="text-base sm:text-lg text-gray-300 group-hover:text-white font-medium">
                         Download Resume
                     </span> */}
-                <ScrambledText
-  className="scrambled-text-demo"
-  radius={100}
-  duration={1.2}
-  speed={0.5} 
->
- Download Resume
-</ScrambledText>
+                    <ScrambledText
+                        className="scrambled-text-demo"
+                        radius={100}
+                        duration={1.2}
+                        speed={0.5}
+                    >
+                        Download Resume
+                    </ScrambledText>
                 </a>
             </div>
         </section>
