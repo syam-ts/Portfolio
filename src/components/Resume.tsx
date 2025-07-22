@@ -10,7 +10,8 @@ const Resume = () => {
                     download
                     className="flex items-center gap-3 px-6 py-4 bg-gray-900 rounded-xl hover:bg-gray-800 transition-colors group"
                 >
-                    <Download className="w-6 h-6 text-gray-400 group-hover:text-white" /> 
+                    <Download className="w-6 h-6 text-gray-400 group-hover:text-white" />
+
                     <ScrambledText
                         className="scrambled-text-demo"
                         radius={100}
