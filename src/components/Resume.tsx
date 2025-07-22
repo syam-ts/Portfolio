@@ -11,9 +11,7 @@ const Resume = () => {
                     className="flex items-center gap-3 px-6 py-4 bg-gray-900 rounded-xl hover:bg-gray-800 transition-colors group"
                 >
                     <Download className="w-6 h-6 text-gray-400 group-hover:text-white" />
-                    {/* <span className="text-base sm:text-lg text-gray-300 group-hover:text-white font-medium">
-                        Download Resume
-                    </span> */}
+                  
                     <ScrambledText
                         className="scrambled-text-demo"
                         radius={100}
