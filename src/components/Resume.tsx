@@ -6,7 +6,7 @@ const Resume = () => {
         <section className="w-full">
             <div className="flex justify-center">
                 <a
-                    href="resume.pdf"
+                    href="SyamTs-Resume.pdf"
                     download
                     className="flex items-center gap-3 px-6 py-4 bg-gray-900 rounded-xl hover:bg-gray-800 transition-colors group"
                 >
