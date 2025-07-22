@@ -78,6 +78,46 @@ const projects: Projects[] = [
         ],
     },
     {
+        projectName: 'Traqfoot',
+        websiteUrl: 'https://traqfoot.vercel.app/login',
+        description:
+        'Traqfoot is a footfall monitoring application built with the MERN stack. This repository contains the frontend built using React.js with Vite, enabling infrastructure admins to monitor real-time sensor data, view analytics, and manage device status.',
+        skills: [
+            'React.js',
+            'Typescript',
+            'Docker',
+            'Fromik',
+            'Tailwind CSS',
+        ],
+    },
+    {
+        projectName: 'Netfilx-clone',
+        websiteUrl: 'https://netflix-clone-react-inky.vercel.app/',
+        description:
+        'A React frontend based clone application of the biggest streaming pltform in the world with latest movies and tv shows updates without any interfering',
+        skills: [
+            'React.js',
+            'Firebase',
+            'TMDB',
+            'TypeScript',
+            'Tailwind CSS',
+        ],
+    },
+            {
+                projectName: 'InvoSync',
+                websiteUrl: 'https://github.com/syam-ts/InvoSync__Invoice-Management-System',
+                description:
+                'InvoSync is a modern invoice management system built for freelancers and small businesses. This repository contains the frontend built using React.js with Vite, allowing users to manage clients, create and update invoices, view profiles, and download styled PDFs.',
+                skills: [
+                    'React.js',
+                    'Typescript',
+                    'Docker',
+                    'Fromik',
+                    'Sonner',
+                    'Tailwind CSS',
+                ],
+            },
+    {
         projectName: 'JokeClub2.0',
         websiteUrl: 'https://jokeClub.vercel.com',
         description:
@@ -90,19 +130,6 @@ const projects: Projects[] = [
             'Firebase',
         ],
     },
-    {
-        projectName: 'Netfilx-clone',
-        websiteUrl: 'https://netflix-clone-react-inky.vercel.app/',
-        description:
-            'A React frontend based clone application of the biggest streaming pltform in the world with latest movies and tv shows updates without any interfering',
-        skills: [
-            'React.js',
-            'Firebase',
-            'TMDB',
-            'TypeScript',
-            'Tailwind CSS',
-        ],
-    }
 ];
 
 
