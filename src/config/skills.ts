@@ -1,6 +1,7 @@
 type skills = string;
 
 const skills: skills[] = [
+    "Next.js",
     "React.js",
     "Tailwind CSS",
     "Typescript",
@@ -10,6 +11,7 @@ const skills: skills[] = [
     "MongoDB",
     "HTML",
     "Docker",
+    "React-Query",
     "CSS",
     "Redux",
     "Formik",

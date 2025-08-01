@@ -43,11 +43,12 @@ const App: React.FC = () => {
           />
 
           <ShinyText
-            text="Fullstack Developer | MERN Stack"
+            text="Fullstack Developer | MERN | Next.js"
             disabled={false}
             speed={3}
             className="text-md sm:text-lg text-gray-400 nunito-regular"
           />
+ 
 
           <p className="flex gap-2 text-gray-400 nunito-regular">
             <div>
