@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
             <div
               onMouseEnter={() => {
-                setImage("img1.png")
+                setImage("img1.png");
               }}
               onMouseLeave={() => {
                 setImage("profile-pic2.jpg");
@@ -48,7 +48,6 @@ const App: React.FC = () => {
             speed={3}
             className="text-md sm:text-lg text-gray-400 nunito-regular"
           />
- 
 
           <p className="flex gap-2 text-gray-400 nunito-regular">
             <div>
@@ -93,8 +92,7 @@ const App: React.FC = () => {
         </section>
 
         {/* Skills Section */}
- 
-        
+
         <section className="w-full mb-12 sm:mb-20">
           <div className="flex items-center mb-6 sm:mb-8">
             <div className="h-px bg-gray-700 flex-grow"></div>
@@ -120,8 +118,6 @@ const App: React.FC = () => {
           </div>
         </section>
 
-
-
         <section className="w-full mb-12 sm:mb-20">
           <div>
             <div className="flex items-center mb-6 sm:mb-8">
@@ -132,6 +128,23 @@ const App: React.FC = () => {
               <div className="h-px bg-gray-700 flex-grow"></div>
             </div>
             <Resume />
+          </div>
+        </section>
+
+        <section className="w-full mb-12 sm:mb-20 text-center">
+          <div className="flex items-center mb-6 sm:mb-8">
+            <div className="h-px bg-gray-700 flex-grow"></div>
+            <h2 className="text-2xl sm:text-3xl font-semibold px-4 nunito-regular">
+              Github
+            </h2>
+            <div className="h-px bg-gray-700 flex-grow"></div>
+          </div>
+          <div className="flex justify-center">
+            <img
+              className="w-full h-full mask-t-from-80% opacity-60 border-2 border-black"
+              src="/github-graph.png"
+              alt="github-graph"
+            />
           </div>
         </section>
 
